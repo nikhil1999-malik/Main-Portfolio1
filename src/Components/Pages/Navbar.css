@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    margin:8px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: skyblue;
+}
