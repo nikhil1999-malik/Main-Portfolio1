@@ -211,3 +211,29 @@ form .form-control{
 .footer-top a:hover{
     color: #fff;
 }
+
+.SignIn input{
+    margin: 10px;
+}
+.SignIn{
+    border: 2px solid black;
+
+}
+.SignIn .SignBox{
+    border: 2px solid black;
+    box-shadow: 5px 10px #888888;
+}
+
+.SignIn .Forgot{
+    justify-content: space-between;
+    padding: 15px;
+  
+}
+
+.SignIn .Forgot .Link{
+  text-decoration: none;
+}
+
+.Login input button{
+    margin:10px;
+}

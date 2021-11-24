@@ -1,10 +1,7 @@
 const mongoose = require("mongoose")
 // const jwt = require("jsonwebtoken")
 
-mongoose.connect('mongodb://127.0.0.1:27017/Contacts', { useNewUrlParser: true }, (err) => {
-    if (!err) { console.log('Connection Completed') }
-    else { console.log("Error in connection") }
-});
+
 
 
 const UserContact = new mongoose.Schema({

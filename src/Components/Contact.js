@@ -10,7 +10,7 @@ function Contact() {
         message: ""
     });
 
-    let name,value;
+    let name, value;
 
     function handleInput(e) {
         name = e.target.name;
@@ -22,11 +22,11 @@ function Contact() {
         })
     }
 
-    const Submit=()=>{
-        axios.post('http://localhost:5000/Dcontact',user)
-        .then((res)=>{
-            alert(res.data.message)
-        })
+    const Submit = () => {
+        axios.post('http://localhost:5000/Dcontact', user)
+            .then((res) => {
+                alert(res.data.message)
+            })
     }
 
 
